@@ -1,0 +1,9 @@
+name: Dlang
+debug: false
+files:
+  - name: >-
+      Download --files=http://downloads.dlang.org/releases/2.x/2.090.0/dmd-2.090.0.exe --downloadPathCache --params=--help
+  - name: Data/Select --selectFields=files # lets select first file (as this is one will be one item)
+  - name: Data/Rename --renameFrom=select_1 --renameTo=app # Because App/Run takes app as argument to application to run
+  - name: Data/Concat --concatFields=app,params --concatSeparator=' '
+  - name: App/Run # run the installer

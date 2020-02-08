@@ -1,0 +1,12 @@
+name: TclTk
+debug: false
+files:
+  - name: >-
+      Download --files=https://prdownloads.sourceforge.net/tcl/tcl8610-src.zip
+      --files=https://prdownloads.sourceforge.net/tcl/tk8610-src.zip
+      --files=https://core.tcl-lang.org/tcllib/uv/tcllib-1.19.zip
+      --downloadPathCache
+  - name: Data/Rename --renameFrom=files --renameTo=unpack
+  - name: FS/File --unpackPathCache
+  # - name: src/install.sh
+  - name: Data/Select --selectFields=paths
