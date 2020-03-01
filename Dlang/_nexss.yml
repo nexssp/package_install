@@ -3,14 +3,11 @@ debug: false
 data:
   appName: dmd.2.090.0.windows
   bin: dmd2\windows\bin
+  downloadsFolder: ${process.env.NEXSS_APPS_PATH}
+  unpacksFolder: ${process.env.NEXSS_APPS_PATH}
 files:
-  #   - name: System/Env/Get NEXSS_APPS_PATH --nxsConcat=NEXSS_APPS_PATH,bin --nxsJoin=PATH --nxsConcatAs=_destinationFolder
-  - name: System/Env/Get NEXSS_APPS_PATH --nxsConcat=NEXSS_APPS_PATH --nxsJoin --nxsConcatAs=destinationFolder
   - name: >-
       Download
       http://downloads.dlang.org/releases/2.x/2.090.0/dmd.2.090.0.windows.7z
   - name: FS/Unpack --nxsConcat=nxsOut,bin --nxsJoin=PATH --nxsConcatAs=EnvPathAdd
   - name: System/Env/EnsurePath
-#   - name: >-
-#       Data/Concat --folder=myprogram --concatFields=NEXSS_APPS_PATH,folder
-#       --concatResultField=destination --concatSeparator=PATH

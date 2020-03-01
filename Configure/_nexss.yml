@@ -4,5 +4,6 @@ data:
   configureSourcePath: c:\Users\mapoart\.nexss\cache\downloads\tcl8610-src
   configureSubPath: tcl8.6.10/win
   configureBinFilePath: bin/tclsh86.exe
+  configureExtraParams: --enable-threads
 files:
   - name: src/configure.ps1
