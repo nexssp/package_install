@@ -1,11 +1,11 @@
-# Install/TclTk-MagicSplat
+# Install/Vlang
 
-Installs TclTk / MagicSplat
+Installs V language
 
 ## Examples
 
 ```sh
-nexss Install/TclTk-MagicSplat # this will download sources, compile and setup tcl/tk and few extra extensions
+nexss Install/Vlang # this will download sources, compile and setup tcl/tk and few extra extensions
 ```
 
 ## Parameters
