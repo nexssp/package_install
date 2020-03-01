@@ -1,0 +1,4 @@
+name: Install/Clojure
+customInput: 1
+files:
+  - name: installClojure.ps1
