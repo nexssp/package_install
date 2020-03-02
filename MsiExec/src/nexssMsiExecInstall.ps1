@@ -14,7 +14,7 @@ if (!$msiExecInstallPath) {
     exit
 }
 elseif (!([System.IO.Path]::IsPathRooted($msiExecInstallPath))) {
-    nxsError("Parameter --msiExecInstallPath must be absolute path.")       
+    nxsError("Parameter --msiExecInstallPath must be absolute path. passed: $msiExecInstallPath")       
     exit
 }
 

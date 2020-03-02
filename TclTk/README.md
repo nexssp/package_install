@@ -1,6 +1,6 @@
-# Data/Concat
+# Install/TclTk
 
-Concatenate data in the sequence (You can also not use this module and make it manually)
+Installs TCLTK from Source
 
 ## Examples
 
