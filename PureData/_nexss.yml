@@ -1,0 +1,13 @@
+name: Install/PureData
+debug: false
+data:
+  appName: PureData
+  bin: ${process.env.NEXSS_APPS_PATH}\\${appName}\\bin
+  downloadsFolder: ${process.env.NEXSS_APPS_PATH} #destinationFolder is used in Download module
+files:
+  # - name: id
+  - name: >-
+      Download
+      http://msp.ucsd.edu/Software/pd-0.50-2.windows-installer.exe --nxsSelect
+  - name: App/Run --app=${Select}
+  # - name: System/Env/EnsurePath --EnvPathAdd=${bin}
