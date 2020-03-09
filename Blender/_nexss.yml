@@ -1,0 +1,8 @@
+name: Install/Blender
+# debug: true
+sequences:
+  default:
+    - name: App/Run scoop install blender
+  "addon/animation_nodes":
+    - name: Download https://github.com/JacquesLucke/animation_nodes/releases/download/daily/animation_nodes_v2_1_windows_py37.zip --downloadPathCache
+    - name: addOnInstall.py animation_nodes # it will take nxsOut from previous (Download)
