@@ -6,3 +6,7 @@ sequences:
   "addon/animation_nodes":
     - name: Download https://github.com/JacquesLucke/animation_nodes/releases/download/daily/animation_nodes_v2_1_windows_py37.zip --downloadPathCache
     - name: addOnInstall.py animation_nodes # it will take nxsOut from previous (Download)
+  "addon/lily_surface_scrapper":
+    - name: Download https://github.com/eliemichel/LilySurfaceScrapper/releases/download/v1.1.3/LilySurfaceScrapper-v1.1.3.zip --downloadPathCache
+    - name: addOnInstall.py LilySurfaceScrapper # it will take nxsOut from previous (Download)
+

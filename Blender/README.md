@@ -3,6 +3,8 @@
 ## Examples
 
 ```sh
-nexss install/Blender # Installs Blender
-nexss install/Blender --seq="addon/animation_nodes" # Installs animation_nodes
+nexss install/Blender # Installs latest stable Blender
+# Installs and enable addons automatically (names are nodes/*)
+nexss install/Blender --seq="addon/animation_nodes" # animation_nodes
+nexss install/Blender --seq="addon/lily_surface_scrapper" #
 ```
