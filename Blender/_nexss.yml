@@ -9,4 +9,6 @@ sequences:
   "addon/lily_surface_scrapper":
     - name: Download https://github.com/eliemichel/LilySurfaceScrapper/releases/download/v1.1.3/LilySurfaceScrapper-v1.1.3.zip --downloadPathCache
     - name: addOnInstall.py LilySurfaceScrapper # it will take nxsOut from previous (Download)
-
+  "addon/sverchok":
+    - name: Download https://github.com/nortikin/sverchok/archive/master.zip --downloadPathCache
+    - name: addOnInstall.py Sverchok

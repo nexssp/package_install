@@ -7,10 +7,10 @@ import NexssZip
 import bpy
 import NexssBlender
 
-if "nxsIn" in NexssStdout:
-    addOnFile = NexssStdout['nxsIn'][0]
+if "nxsOut" in NexssStdout:
+    addOnFile = NexssStdout['nxsOut'][0]
     try:
-        addOnName = NexssStdout['nxsIn'][1]
+        addOnName = NexssStdout['nxsOut'][1]
     except IndexError:
         if NexssZip.isZip(addOnFile):
             # We get first folder
