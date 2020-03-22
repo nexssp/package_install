@@ -1,11 +1,11 @@
-# Install/Vlang
+# Install/SQLiteBiter
 
-Installs V language
+Installs SQLbiter
 
 ## Examples
 
 ```sh
-nexss Install/Vlang # this will download sources, compile and setup D language and few extra extensions
+nexss Install/SQLiteBiter # this will download sources, compile and setup SQLiteBiter
 ```
 
 ## Parameters
