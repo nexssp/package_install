@@ -1,6 +1,5 @@
 dlang.json
 // Download takes all parameters from dlang.json
 Download
-// nxsOut(result from Download is a Path so we join with bin var as PATH)
-FS/Unpack --nxsConcat=nxsOut,bin --nxsJoin=PATH --nxsConcatAs=EnvPathAdd
+FS/Unpack
 System/Env/EnsurePath
