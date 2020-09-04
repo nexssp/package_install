@@ -1,0 +1,10 @@
+{
+  "appName": "Eiffel",
+  "arch": "${process.arch===\"x64\"?\"win64\":\"windows\"}",
+  "bin": "${process.env.NEXSS_APPS_PATH}/${appName}/bin",
+  "downloadsFolder": "${process.env.NEXSS_APPS_PATH}",
+  "msiExecInstallPath": "${process.env.NEXSS_APPS_PATH}/${appName}",
+  "nxsIn": [
+    "https://netix.dl.sourceforge.net/project/eiffelstudio/EiffelStudio%2019.05/Build_103187/Eiffel_19.05_gpl_103187-${arch}.msi"
+  ]
+}

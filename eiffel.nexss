@@ -1,0 +1,4 @@
+eiffel.json
+Download
+Install/MsiExec //  msiExecInstallPath is passed from json file.
+System/Env/EnsurePath --EnvPathAdd=${bin}

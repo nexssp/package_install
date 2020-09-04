@@ -1,0 +1,4 @@
+tcltk-magicsplat.json
+Download
+Install/MsiExec
+System/Env/EnsurePath --EnvPathAdd=${bin}

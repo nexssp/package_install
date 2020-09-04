@@ -1,6 +1,8 @@
 # Install/TclTk
 
-Installs TCLTK from Source
+- **NOTE:** This module is not finished yet. use `nexss install/tcltk-magicsplat.nexss` instead.
+
+Installs TCLTK from Source. 
 
 ## Examples
 
@@ -10,5 +12,5 @@ nexss Install/TclTk # this will download sources, compile and setup tcl/tk and f
 
 ## Parameters
 
-**--downloadPathCache** - will download to the cache folder (not the current folder)
-**--donwloadNocache** - will not use cache and re-download if already exists.
+- **--downloadPathCache** - will download to the cache folder (not the current folder)
+- **--downloadNocache** - will not use cache and re-download if already exists.

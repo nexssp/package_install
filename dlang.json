@@ -1,0 +1,7 @@
+{
+  "appName": "dmd.2.090.0.windows",
+  "bin": "dmd2\\windows\\bin",
+  "downloadsFolder": "${process.env.NEXSS_APPS_PATH}",
+  "unpacksFolder": "${process.env.NEXSS_APPS_PATH}",
+  "nxsIn": ["http://downloads.dlang.org/releases/2.x/2.091.1/dmd.2.091.1.windows.7z"]
+}

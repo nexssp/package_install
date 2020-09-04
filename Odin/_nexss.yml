@@ -1,13 +1,11 @@
-name: Install/Dlang
+name: Install/Odin
 debug: false
 data:
-  appName: dmd.2.090.0.windows
-  bin: dmd2\windows\bin
+  appName: odin
+  bin: "windows_artifacts"
   downloadsFolder: ${process.env.NEXSS_APPS_PATH}
   unpacksFolder: ${process.env.NEXSS_APPS_PATH}
 files:
-  - name: >-
-      Download
-      http://downloads.dlang.org/releases/2.x/2.090.0/dmd.2.090.0.windows.7z
+  - name: Download https://f001.backblazeb2.com/file/odin-binaries/nightly/odin-windows-amd64-nightly%2B2020-05-03.zip
   - name: FS/Unpack --nxsConcat=nxsOut,bin --nxsJoin=PATH --nxsConcatAs=EnvPathAdd
   - name: System/Env/EnsurePath

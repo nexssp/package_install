@@ -1,0 +1,6 @@
+{
+  "appName": "PureData",
+  "bin": "C:/Program Files/Pd/bin/",
+  "downloadsFolder": "${process.env.NEXSS_APPS_PATH}",
+  "nxsIn": ["http://msp.ucsd.edu/Software/pd-0.50-2.windows-installer.exe"]
+}

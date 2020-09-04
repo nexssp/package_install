@@ -1,11 +1,11 @@
-# Install/PureData
+# Install/Odin
 
-Installs PureData
+Installs Odin language
 
 ## Examples
 
 ```sh
-nexss Install/PureData # this will download sources, compile and setup tcl/tk and few extra extensions
+nexss Install/Odin
 ```
 
 ## Parameters

@@ -1,0 +1,6 @@
+puredata.json
+// Download takes all parameters from dlang.json
+Download
+// nxsOut(result from Download is a Path so we join with bin var as PATH)
+App/Run
+System/Env/EnsurePath --EnvPathAdd=${bin}
