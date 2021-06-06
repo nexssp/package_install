@@ -1,6 +1,6 @@
 {
   "appName": "vlang",
-  "bin": "",
+  "bin": "v",
   "downloadsFolder": "${process.env.NEXSS_APPS_PATH}",
   "unpacksFolder": "${process.env.NEXSS_APPS_PATH}",
   "nxsIn": ["https://github.com/vlang/v/releases/latest/download/v_windows.zip"]
