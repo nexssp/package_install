@@ -7,4 +7,4 @@ files:
       https://core.tcl-lang.org/tcllib/uv/tcllib-1.20.zip
       --downloadPathCache
   - name: FS/Unpack --unpackPathCache
-  # # - name: src/install.sh
+  - name: src/install.sh

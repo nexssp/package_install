@@ -1,9 +1,9 @@
 {
-  "appName": "TclTk-MagicSplat",
-  "bin": "${process.env.NEXSS_APPS_PATH}/${appName}/bin",
+  "appName": "TclTkMagicSplat",
+  "bin": "${process.env.NEXSS_APPS_PATH}\\\\${appName}\\\\bin",
   "downloadsFolder": "${process.env.NEXSS_APPS_PATH}",
-  "msiExecInstallPath": "${process.env.NEXSS_APPS_PATH}/${appName}",
+  "msiExecInstallPath": "${process.env.NEXSS_APPS_PATH}\\\\${appName}",
   "nxsIn": [
-    "https://netcologne.dl.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-8.6.10-installer-1.10.0-x64.msi"
+    "https://raw.githubusercontent.com/nexssp/bin_tcltk/master/tcl-8.6.11-installer-1.11.2-x64.msi"
   ]
 }

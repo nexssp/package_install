@@ -4,8 +4,8 @@
   "downloadsFolder": "${process.env.NEXSS_APPS_PATH}",
   "unpacksFolder": "${process.env.NEXSS_APPS_PATH}",
   "nxsIn": [
-    "https://prdownloads.sourceforge.net/tcl/tcl8610-src.zip",
-    "https://prdownloads.sourceforge.net/tcl/tk8610-src.zip",
+    "https://prdownloads.sourceforge.net/tcl/tcl8611-src.zip",
+    "https://prdownloads.sourceforge.net/tcl/tk86111-src.zip",
     "https://core.tcl-lang.org/tcllib/uv/tcllib-1.20.zip"
   ]
 }

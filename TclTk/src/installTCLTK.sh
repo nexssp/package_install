@@ -1,11 +1,13 @@
 
-scoop install gcc
+VERSION="8.6.11"
+
+# scoop install gcc
 
 mkdir -p opt/tcl
 # TCL
 mkdir -p build/tcl
-# cd build/tcl
-# ../../tcl8.6.10/win/configure --prefix=${PWD}/../opt/tcl && make && make install
+cd build/tcl
+../../../../../tcl/tcl$VERSION/win/configure --prefix=${PWD}/../opt/tcl && make && make install
 
 # cd ../../
 #mkdir -p build/tk
@@ -19,15 +21,14 @@ mkdir -p build/tcl
 ######################################################
 
 
-echo "Configuring and Installing Tcllib"
-# https://core.tcl-lang.org/tcllib/uv/tcllib-1.19.zip
-cd tcllib-1.19/
-../build/opt/tcl/bin/tclsh86.exe installer.tcl -no-gui -no-wait #--help
+# echo "Configuring and Installing Tcllib"
+# # https://core.tcl-lang.org/tcllib/uv/tcllib-1.19.zip
+# cd tcllib-1.19/
+# ../build/opt/tcl/bin/tclsh86.exe installer.tcl -no-gui -no-wait #--help
 
 
-SET VS100COMNTOOLS="C:\Users\mapoart\scoop\apps\visualc\current\program files\Microsoft Visual Studio 10.0\Common7\"
-
-$env:VS100COMNTOOLS="C:\Users\mapoart\scoop\apps\visualc\current\program files\Microsoft Visual Studio 10.0\Common7\"    
+# SET VS100COMNTOOLS="C:\Users\mapoart\scoop\apps\visualc\current\program files\Microsoft Visual Studio 10.0\Common7\"
+# $env:VS100COMNTOOLS = "C:\Users\mapoart\scoop\apps\visualc\current\program files\Microsoft Visual Studio 10.0\Common7\"    
 
 
 
